@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 main {
-	font-family: "Heebo", san-serif;
+	font-family: "Heebo", sans-serif;
 }
 .landing {
 	min-height: 100vh;
@@ -13,6 +13,56 @@ main {
 	padding: 0rem 5rem;
 }
 nav {
-	
-
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 10vh;
+}
+.nav-links {
+	display: flex;
+	list-style: none;
+}
+.nav-links li {
+	padding-left: 5rem;
+	font-size: 1.2rem;
+}
+#logo {
+	font-family: "Lobster", cursive;
+	font-weight: lighter;
+	font-size: 2rem;
+}
+.big-text {
+	position: absolute;
+	top:30%;
+	left:50%;
+	transform: translate(-50%, -30%);
+	font-size: 5rem;
+	font-family: "Lobster", cursive;
+	color: #fff;
+	text-shadow: 2px 2px 30px rgba(0, 0, 0, 1);
+}
+.slider {
+	background-color: #3b647c;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	transform: translateY(100%);
+}
+.intro {
+	background-color: #000;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.intro-text {
+	color: rgb(227,242,255);
+	font-family: "Heebo", sans-serif;
+	font-size: 3rem;
 }
