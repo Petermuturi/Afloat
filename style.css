@@ -66,3 +66,11 @@ nav {
 	font-family: "Heebo", sans-serif;
 	font-size: 3rem;
 }
+.hide {
+	background-color: #000;
+	overflow: hidden;
+}
+.hide span {
+	display: inline-block;
+	transform: translateY(100%);
+}
